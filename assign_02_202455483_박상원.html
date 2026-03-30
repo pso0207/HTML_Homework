@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML 연습 - 자기소개</title>
+    <style>
+        /* 기본적인 레이아웃을 위한 스타일 */
+        body { font-family: sans-serif; line-height: 1.6; }
+        section { margin-bottom: 30px; border-bottom: 1px solid #ccc; padding-bottom: 20px; }
+        .profile-img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; }
+        .school-img { width: 20px; vertical-align: middle; margin-right: 5px; }
+        nav a { margin-right: 10px; text-decoration: none; color: blue; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>박상원</h1>
+        <nav>
+            <a href="#info">[개인정보]</a>
+            <a href="#education">[학력사항]</a>
+            <a href="#certifications">[자격사항]</a>
+            <a href="#intro">[자기소개]</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="info">
+            <h2>개인정보</h2>
+            <img src="./img/profile.png" alt="박상원 프로필 사진" class="profile-img">
+            <ul>
+                <li><strong>본인성명:</strong> 박상원</li>
+                <li><strong>연락처:</strong> 010-3215-6620</li>
+                <li><strong>E-mail:</strong> pso0207@pusan.ac.kr</li>
+                <li><strong>주소:</strong> 울산광역시 북구 신천로26</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>학력사항</h2>
+            <ul>
+                <li>
+                    <img src="./img/pnu.png" alt="부산대학교 로고" class="school-img">
+                    <a href="https://www.pusan.ac.kr" target="_blank">부산대학교 정보컴퓨터공학부 재학</a>
+                </li>
+                <li>
+                    <img src="./img/school_icon.png" alt="고등학교 아이콘" class="school-img">
+                    <a href="#" target="_blank">매곡고등학교 졸업</a>
+                </li>
+                <li>
+                    <img src="./img/school_icon.png" alt="중학교 아이콘" class="school-img">
+                    <a href="#" target="_blank">매곡중학교 졸업</a>
+                </li>
+                <li>
+                    <img src="./img/school_icon.png" alt="초등학교 아이콘" class="school-img">
+                    <a href="#" target="_blank">동대초등학교 졸업</a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="certifications">
+            <h2>자격사항</h2>
+            <ul>
+                <li>JLPT N3</li>
+                <li>TOEIC 910</li>
+            </ul>
+        </section>
+
+        <section id="intro">
+            <h2>자기소개</h2>
+            <p>
+                <a href="assign_01_202455483_박상원.html">SWOT 분석 보기</a>
+            </p>
+            <article>
+                <p>안녕하세요! 게임 개발과 알고리즘에 관심이 많은 박상원입니다.</p>
+                <p>현재 부산대학교에서 정보컴퓨터공학을 전공하며 C++을 활용한 텍스트 RPG 개발 등 다양한 프로젝트를 진행하고 있습니다.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Park Sang-won. Busan, South Korea.</p>
+    </footer>
+
+</body>
+</html>
